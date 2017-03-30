@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint ./; exit 0",
-    "ci": "npm run lint && npm run test"
+    "lint": "./node_modules/.bin/eslint ./",
+    "ci": "npm run test && npm run lint"
   }
 }

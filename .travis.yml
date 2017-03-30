@@ -7,4 +7,4 @@ cache:
   directories:
     - node_modules
 
-script: npm run ci
+script: npm install eslint-plugin-jsx-a11y@2.2.3 && npm run ci -s
